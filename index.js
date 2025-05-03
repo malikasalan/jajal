@@ -1,6 +1,7 @@
-const { ethers } = require('ethers');
-const fs = require('fs');
-const log = require('log-to-file');
+import { ethers } from 'ethers';
+import dotenv from 'dotenv';
+import logToFile from 'log-to-file';
+import fs from 'fs';
 require('dotenv').config();
 
 // ===== CONFIGURATION =====
